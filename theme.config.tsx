@@ -2,9 +2,9 @@ import React from 'react'
 import { DocsThemeConfig } from 'nextra-theme-docs'
 
 const config: DocsThemeConfig = {
-  logo: <span>🦁 Lion Police RP - Guide</span>,
+  logo: <span>🦁 Lion Police RP</span>,
   project: {
-    link: 'https://github.com/shuding/nextra-docs-template',
+    link: 'https://github.com/L0stedMrlion/lionpolicerp-guide',
   },
   chat: {
     link: 'https://discord.gg/Uewwf3tpz3',
