@@ -2,16 +2,15 @@ import React from 'react'
 import { DocsThemeConfig } from 'nextra-theme-docs'
 
 const config: DocsThemeConfig = {
-  logo: <span>My Project</span>,
+  logo: <span>🦁 Lion Police RP - Guide</span>,
   project: {
     link: 'https://github.com/shuding/nextra-docs-template',
   },
   chat: {
-    link: 'https://discord.com',
+    link: 'https://discord.gg/Uewwf3tpz3',
   },
-  docsRepositoryBase: 'https://github.com/shuding/nextra-docs-template',
   footer: {
-    text: 'Nextra Docs Template',
+    text: "🦁 Lion's Project™",
   },
 }
 
