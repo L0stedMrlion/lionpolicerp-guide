@@ -1,5 +1,5 @@
 {
-  "kodex": "👮‍♀️ Kodex",
+  "kody": "👮‍♀️ Kodex",
   "codes": "🔢 Kódy",
   "vstupdokancelare": "🚪 Vstup do kanceláře",
   "radio": "📻 Vysílačka",
@@ -11,7 +11,7 @@
   "miranda": "🗣️ Miranda",
   "ulice": "🏠 Názvy ulic",
   "trafficstop": "🚗 Traffic stop",
-  "fstop": "🚓 Felony stop",
+  "felonystop": "🚓 Felony stop",
   "pitmanevr": "🚨 Pit manévr",
-  "box": "📦 Box block"
+  "boxblock": "📦 Box block"
 }
