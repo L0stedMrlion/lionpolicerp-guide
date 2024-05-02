@@ -1,7 +1,7 @@
 {
-  "name": "nextra-docs-template",
-  "version": "0.0.1",
-  "description": "Nextra docs template",
+  "name": "nextra-lionpolice-rp-wiki",
+  "version": "1.0",
+  "description": "Nextra template used to make Lion Police RP wiki",
   "scripts": {
     "dev": "next dev",
     "build": "next build",
