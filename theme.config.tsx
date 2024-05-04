@@ -13,7 +13,8 @@ const config: DocsThemeConfig = {
   },
   primaryHue: 222,
   primarySaturation: 52,
-  docsRepositoryBase: "https://github.com/shuding/nextra/tree/main/docs",
+  docsRepositoryBase:
+    "https://github.com/L0stedMrlion/lionpolicerp-guide/tree/main",
   logo: <span>🦁 Lion Police Roleplay™</span>,
   project: {
     link: "https://github.com/L0stedMrlion/lionpolicerp-guide",
