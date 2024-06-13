@@ -1,12 +1,25 @@
 import React from "react";
 import { DocsThemeConfig } from "nextra-theme-docs";
+import { useRouter } from "next/router";
+
+function useNextSeoProps() {
+  const { asPath } = useRouter();
+  const arr = asPath.replace(/[-_]/g, " ").split("/");
+  const category = (arr[1][0] !== "#" && arr[1]) || "Lion Police Roleplay 3.0";
+  const rawTitle = arr[arr.length - 1];
+  const title =
+    /[a-z]/.test(rawTitle) && /[A-Z]/.test(rawTitle) ? rawTitle : "%s";
+
+  return {
+    titleTemplate: `${title} - ${
+      rawTitle === category
+        ? "Documentation"
+        : category.replace(/(^\w|\s\w)/g, (m) => m.toUpperCase())
+    }`,
+  };
+}
 
 const config: DocsThemeConfig = {
-  useNextSeoProps() {
-    return {
-      titleTemplate: "%s - Guide",
-    };
-  },
   navigation: {
     prev: false,
     next: false,
@@ -21,14 +34,15 @@ const config: DocsThemeConfig = {
         paddingLeft: "50px",
         lineHeight: "38px",
         background:
-          "url('https://cdn.discordapp.com/attachments/1178330264263462943/1229136630045081691/lionsproject_logo.png?ex=66484af0&is=6646f970&hm=6ff109822bd6782e7182b4c251a6788976e301198b7827b8e557d7e9c47c11ec&') no-repeat left",
+          "url('https://cdn.discordapp.com/attachments/1178330264263462943/1229136630045081691/lionsproject_logo.png?ex=666be370&is=666a91f0&hm=b5e6a42ec769b67fb210be8c0aabb45d565591759432e5f4bbf847ccbefeef3a&') no-repeat left",
         backgroundSize: "38px",
         fontWeight: 550,
       }}
     >
-      🦁 Lion Police Roleplay™
+      Lion Police Roleplay™ 3.0
     </div>
   ),
+  useNextSeoProps: useNextSeoProps,
   project: {
     link: "https://github.com/L0stedMrlion/lionpolicerp-guide",
   },
