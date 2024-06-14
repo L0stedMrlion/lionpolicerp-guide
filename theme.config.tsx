@@ -38,10 +38,10 @@ function useHead() {
 
 const config: DocsThemeConfig = {
   banner: {
-    key: "lionrp3",
+    key: "lionroleplay3.0",
     text: (
       <a href="https://discord.gg/mkGXPa2tFQ" target="_blank">
-        🦁 Lion Police Roleplay 3.0 brzy out! Checkni to kliknutím na tento
+        🦁 Lion Police Roleplay 3.0™ brzy out! Checkni to kliknutím na tento
         banner!
       </a>
     ),
@@ -50,8 +50,8 @@ const config: DocsThemeConfig = {
     prev: false,
     next: false,
   },
-  primaryHue: 211,
-  primarySaturation: 100,
+  primaryHue: 54,
+  primarySaturation: 68,
   docsRepositoryBase:
     "https://github.com/L0stedMrlion/lionpolicerp-guide/tree/main",
   logo: (
@@ -75,6 +75,9 @@ const config: DocsThemeConfig = {
   },
   chat: {
     link: "https://discord.gg/Uewwf3tpz3",
+  },
+  toc: {
+    backToTop: true,
   },
   footer: {
     text: "🦁 Lion's Project™ 3.0",
