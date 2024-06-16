@@ -41,8 +41,8 @@ const config: DocsThemeConfig = {
     key: "lionroleplay3.0",
     text: (
       <a href="https://discord.gg/mkGXPa2tFQ" target="_blank">
-        🦁 Lion Police Roleplay 3.0™ brzy out! Checkni to kliknutím na tento
-        banner!
+        🦁 Lion Police Roleplay 3.0™ brzy out! Klikni na tento banner pro
+        získání více informací!
       </a>
     ),
   },
@@ -50,8 +50,8 @@ const config: DocsThemeConfig = {
     prev: false,
     next: false,
   },
-  primaryHue: 54,
-  primarySaturation: 68,
+  primaryHue: 205,
+  primarySaturation: 59,
   docsRepositoryBase:
     "https://github.com/L0stedMrlion/lionpolicerp-guide/tree/main",
   logo: (
@@ -60,7 +60,7 @@ const config: DocsThemeConfig = {
         paddingLeft: "50px",
         lineHeight: "38px",
         background:
-          "url('https://cdn.discordapp.com/attachments/1178330264263462943/1229136630045081691/lionsproject_logo.png?ex=666d34f0&is=666be370&hm=7a71a1d4c0cd72d5388ee251a9a422911db016fe3d96ee52761b53a99a5b466f&') no-repeat left",
+          "url('https://cdn.discordapp.com/attachments/1178330264263462943/1229136630045081691/lionsproject_logo.png?ex=666fd7f0&is=666e8670&hm=e78094ce174ae8a1c00200b666047c07051903f7f79bfcb034ad61fa566f4d77&') no-repeat left",
         backgroundSize: "38px",
         fontWeight: 550,
       }}
