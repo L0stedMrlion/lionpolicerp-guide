@@ -37,15 +37,6 @@ function useHead() {
 }
 
 const config: DocsThemeConfig = {
-  banner: {
-    key: "lionroleplay3.0",
-    text: (
-      <a href="https://discord.gg/mkGXPa2tFQ" target="_blank">
-        🦁 Lion Police Roleplay 3.0™ brzy out! Klikni na tento banner pro
-        získání více informací!
-      </a>
-    ),
-  },
   navigation: {
     prev: false,
     next: false,
