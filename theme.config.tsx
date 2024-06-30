@@ -51,7 +51,7 @@ const config: DocsThemeConfig = {
         paddingLeft: "50px",
         lineHeight: "38px",
         background:
-          "url('https://cdn.discordapp.com/attachments/1178330264263462943/1229136630045081691/lionsproject_logo.png?ex=666fd7f0&is=666e8670&hm=e78094ce174ae8a1c00200b666047c07051903f7f79bfcb034ad61fa566f4d77&') no-repeat left",
+          "url('https://i.ibb.co/YPTvcxT/lionsproject-logo.png') no-repeat left",
         backgroundSize: "38px",
         fontWeight: 550,
       }}
