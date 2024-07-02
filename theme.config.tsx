@@ -51,7 +51,7 @@ const config: DocsThemeConfig = {
         paddingLeft: "50px",
         lineHeight: "38px",
         background:
-          "url('https://i.ibb.co/YPTvcxT/lionsproject-logo.png') no-repeat left",
+          "url('https://i.ibb.co/sszfTrX/policelogo.png') no-repeat left",
         backgroundSize: "38px",
         fontWeight: 550,
       }}
